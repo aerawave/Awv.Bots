@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Awv.Bots.WoWItemGen": {
+      "commandName": "Project",
+      "commandLineArgs": "-env D"
+    }
+  }
+}

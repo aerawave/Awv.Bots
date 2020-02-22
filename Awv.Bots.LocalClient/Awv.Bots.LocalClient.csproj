@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Joshua Kinzer</Authors>
+    <Company>Aerawave</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Awv.Automizer\Awv.Automizer.csproj" />
+    <ProjectReference Include="..\Awv.Bots.Core\Awv.Bots.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Awv.Automation">
+      <HintPath>..\..\..\Awv\Awv.Automation\bin\Debug\netcoreapp3.1\Awv.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="Awv.Core">
+      <HintPath>..\..\..\Awv\Awv.Automation\bin\Debug\netcoreapp3.1\Awv.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
