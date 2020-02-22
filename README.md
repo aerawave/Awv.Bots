@@ -1,6 +1,8 @@
 # Awv.Bots
 Bot source code
 
+Bot appsettings.json files have been omitted for what should be an obvious reason.
+
 # Awv.Bots.WoWItemGen
 
 This is the source code for the actively running bot that posts to the following:
