@@ -14,14 +14,7 @@ namespace Awv.Bots.WoWItemGen.Libraries
         public static RangeGenerator Range { get; set; } = new RangeGenerator();
 
         public static string tag(string tagName)
-        {
-            var phrases = Generator.Phrases.Tagged(tagName);
-            if (phrases.Values.Count() == 0)
-            {
-
-            }
-            return phrases.Generate(RNG).ToString();
-        }
+            => Generator.Phrases.Tagged(tagName).Generate(RNG).ToString();
 
         public static string stat()
         {

@@ -17,7 +17,6 @@ using Awv.Games.WoW.Items.Equipment;
 using Awv.Games.WoW.Items.Equipment.Interface;
 using Awv.Games.WoW.Stats;
 using Awv.Games.WoW.Tooltips;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
